@@ -1,15 +1,23 @@
 .container {
-  width: 100vw;
+  width: 99vw;
   min-height: 100vh;
   background-color: rgb(207, 207, 207);
   display: flex;
   flex-direction: column;
 }
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.box {
+  min-width: 45%;
+}
 .box-1 {
   background-color: #fff;
-  margin: 20px;
+  margin: auto;
   height: 280px;
-  min-width: 80%;
+  width: max-content;
   border-radius: 8px;
   padding: 10px;
 }
@@ -23,7 +31,7 @@
   background-color: #fff;
   margin: 20px;
   height: 330px;
-  min-width: 47%;
+  min-width: max-content;
   border-radius: 8px;
   padding: 10px;
 }
